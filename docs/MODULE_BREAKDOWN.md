@@ -132,8 +132,13 @@ Students can upload public resources.
 
 ## ✅ Status Flow Summary
 
-```text
 1. Admin posts assignment →  
 2. All students receive it under "To Be Started" →  
 3. Students move to "In Progress" → "Completed" → "Submitted" →  
 4. Admin reviews and updates to "Done"
+
+## 🔐 Roles & Permissions
+| Role     | Can Post | Can Move Status | Can Verify | Can Upload Notes |
+| -------- | -------- | --------------- | ---------- | ---------------- |
+| Student  | ❌        | ✅ (own tasks)   | ❌          | ✅                |
+| Admin/CR | ✅        | ✅ (anyone)      | ✅          | ✅                |
